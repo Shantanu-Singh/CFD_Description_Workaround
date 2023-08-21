@@ -1,0 +1,51 @@
+insert_job: bbc.prod.ighs.cz.sndbrandbankcovrep.d.c    job_type: cmd
+description: This is the coverage report to send the list of product intentions also called a range list or range file
+machine: PVIGHSBBNK001CE
+owner: uktil02ighsbbankschs@til.dotcom.tesco.org
+box_name: bbc.prod.ighs.cz.sndbrandbankcovrep.d.b
+max_run_alarm: 0
+alarm_if_fail: y
+alarm_if_terminated: y
+avg_runtime: 1
+priority: 1
+job_load: 1
+job_terminator: y
+send_notification: n
+std_out_file: ">D:\Tesco\Logs\Autosys\%AUTO_JOB_NAME%.log"
+std_err_file: ">D:\Tesco\Logs\Autosys\%AUTO_JOB_NAME%.err"
+command: "&D:\Tesco\Autosys\Integration.BrandBank\SndBrandbankCovRepCZ.bat"
+
+insert_job: bbc.prod.ighs.hu.sndbrandbankcovrep.d.c    job_type: cmd
+description: This is the coverage report to send the list of product intentions also called a range list or range file
+machine: PVIGHSBBNK001CE
+owner: uktil02ighsbbankschs@til.dotcom.tesco.org
+box_name: bbc.prod.ighs.hu.sndbrandbankcovrep.d.b
+max_run_alarm: 0
+alarm_if_fail: y
+alarm_if_terminated: y
+avg_runtime: 1
+priority: 1
+job_load: 1
+job_terminator: y
+send_notification: n
+std_out_file: ">D:\Tesco\Logs\Autosys\%AUTO_JOB_NAME%.log"
+std_err_file: ">D:\Tesco\Logs\Autosys\%AUTO_JOB_NAME%.err"
+command: "&D:\Tesco\Autosys\Integration.BrandBank\SndBrandbankCovRepHU.bat"
+
+
+insert_job: bbc.prod.ighs.sk.sndbrandbankcovrep.d.c    job_type: cmd
+description: This is the coverage report to send the list of product intentions also called a range list or range file
+machine: PVIGHSBBNK001CE
+owner: uktil02ighsbbankschs@til.dotcom.tesco.org
+box_name: bbc.prod.ighs.sk.sndbrandbankcovrep.d.b
+max_run_alarm: 0
+alarm_if_fail: y
+alarm_if_terminated: y
+avg_runtime: 1
+priority: 1
+job_load: 1
+job_terminator: y
+send_notification: n
+std_out_file: ">D:\Tesco\Logs\Autosys\%AUTO_JOB_NAME%.log"
+std_err_file: ">D:\Tesco\Logs\Autosys\%AUTO_JOB_NAME%.err"
+command: "&D:\Tesco\Autosys\Integration.BrandBank\SndBrandbankCovRepSK.bat"

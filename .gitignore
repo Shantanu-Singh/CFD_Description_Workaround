@@ -1,0 +1,15 @@
+/product-input.xml
+/product-output_G1.xml
+
+### Folders
+MiscCodeOld/
+2023-07-24/
+2023-08-02_Export UK/
+.fleet/
+*.json
+*.zip
+*.7z
+
+
+### VS Code ###
+.vscode/
